@@ -18,3 +18,12 @@ a = {'a':1, 'b':2}
 print (type(a))
 a = True
 print (type(a))
+
+x = input("Ввод данных")
+print (type(x))
+r = int(x) + 1  # Замена формата перменной
+print(r)
+x = float(input("Ввод данных"))
+Y = float(input("Ввод данных"))
+c = x+Y
+print('Результат ' +str(c))
