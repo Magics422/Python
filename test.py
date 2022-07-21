@@ -10,3 +10,8 @@ swap1 = 4
 swap2 = 7
 swap1, swap2 = swap2, swap1
 print (swap1, swap2) # test swap
+
+z, *y, x = [1, 2, 3, 4, 5, 6] #работа с переменными
+print (z)
+print (y)
+print (x)
